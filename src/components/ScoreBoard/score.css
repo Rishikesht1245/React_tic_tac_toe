@@ -1,0 +1,41 @@
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px #888;
+  width: 100%;
+  margin: 3rem, auto;
+  font-weight: bold;
+  font-size: 22px;
+  height: 80px;
+  position: fixed;
+}
+
+.x-score {
+  color: var(--xRed);
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.o-score {
+  color: aqua;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.tie-score {
+  color: rgb(70, 247, 6);
+  padding: 15px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.xPlay {
+  border-width: 20%;
+  border-bottom: 5px solid var(--xRed);
+  text-align: center;
+}
+.oPlay {
+  border-bottom: 5px solid var(--oBlack);
+}
